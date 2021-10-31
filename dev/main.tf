@@ -4,7 +4,7 @@ resource "google_storage_bucket" "storage-1" {
   force_destroy = true
 
 }
-resource "google_storage_bucket" "storage-1" {
+resource "google_storage_bucket" "storage-2" {
   name          = "storage-dev-malli-ext"
   location      = "EU"
   force_destroy = true
